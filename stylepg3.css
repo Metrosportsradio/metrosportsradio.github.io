@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'quanticoregular';
+    src: url('quantico/Quantico-Regular-webfont.eot');
+    src: url('quantico/Quantico-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quantico/Quantico-Regular-webfont.woff') format('woff'),
+         url('quantico/Quantico-Regular-webfont.ttf') format('truetype'),
+         url('quantico/Quantico-Regular-webfont.svg#quanticoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    margin-top: 0;
+    padding: 0;
+}
+
+ #body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    margin-top: 0;
+    width: 100%;   
+    padding: 0;
+    background: white;
+    height: 50px;
+    font-family: 'quanticoregular';
+    z-index: 2;
+    box-shadow: 0px 1px 1px gray;
+}
+
+
+#nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    text-align: right;
+}
+
+ul li {
+    display: inline;
+    width:150px;
+}
+
+li {
+    padding:40px;
+}
+
+.navbar {
+    text-decoration: none;
+    color:black;
+    position: fixed;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 50px;
+    position: fixed;
+    overflow: scroll;
+    height: 100%;
+    font-family: 'quanticoregular';
+}
+
+#wrapper form{
+    font-family: 'quanticoregular';
+    position: absolute;
+    overflow: scroll;
+    z-index: -3;
+    margin-top: 100px;
+    margin-left: 10px;
+    font-family: 'quanticoregular';
+}
+
+.askpara {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#wrapper p{
+    margin-bottom: 0px;
+}
+
+.form {
+    font-family: 'quanticoregular';
+    border: solid 1px;
+    height: 30px;
+    width: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#question {
+    height: 50px;
+    font-family: 'quanticoregular';
+    border: solid 1px;
+    width: 500px;
+}
+
+.button {
+    height: 50px;
+    width: 247px;
+    border: solid 1px;
+    font-family: 'quanticoregular';
+    background-color: white;
+    margin-right: 10px;
+}
+
+/* The animation code */
+@keyframes grad {
+    from {background-color: white;}
+    to {background-color: #FB4F14;}
+}
+
+/* The element to apply the animation to */
+.button:hover {
+    height: 50px;
+    width: 247px;
+    border: solid 1px;
+    font-family: 'quanticoregular';
+    animation-name: grad;
+    animation-duration: 3s;
+}
+    
+
+
+
+
+    
+
