@@ -4,10 +4,18 @@
 <head>
     <title>Metropolitan Sports Radio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>    
+<script>
+    $(window).load(function() {
+        $(".uil-ripple-css").delay(3000).animate({
+            top: -2000
+        }, 1000);
+</script>
     
 </head>
 
 <body>
+    <div class='uil-ripple-css' style='-webkit-transform:scale(0.6)'><div></div><div></div></div>
 <div class="header">
         <ul id="nav">
             <li><a class="navbar" href="index.html">Home</a></li>
