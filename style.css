@@ -10,6 +10,13 @@
 
 }
 
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
 .mybg{
     z-index: -5;
     height: 700px;
