@@ -4,7 +4,20 @@
 <head>
     <title>Metropolitan Sports Radio</title>
     <link rel="stylesheet" type="text/css" href="stylepg4.css">
-    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('#logo').fadeOut();
+     }
+    else
+     {
+      $('#logo').fadeIn();
+     }
+ });
+</script>
 </head>
 
 <body id="body">
