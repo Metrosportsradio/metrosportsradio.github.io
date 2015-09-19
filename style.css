@@ -114,8 +114,6 @@ li {
     text-align:center;
     margin:0;
     padding:0;
-    left:50%;
-    right:50%;
     overflow:hidden;
     z-index: 10;
 }
