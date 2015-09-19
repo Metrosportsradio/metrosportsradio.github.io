@@ -10,6 +10,12 @@
 
 }
 
+::selection {
+  background: #FB4F14; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FB4F14; /* Gecko Browsers */
+}
 
 
 html {
