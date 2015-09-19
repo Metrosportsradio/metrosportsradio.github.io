@@ -23,7 +23,7 @@ html {
     padding: 0;
 }
 
- #body{
+#body{
     margin:0;
     padding:0;
     height: 100%;
@@ -135,6 +135,16 @@ p.aboutpara {
     margin-top: 90px;
     margin-left: 10px;
 }
+
+#contact h1 {
+    font-family: "quanticoregular";
+    color:lightgray;
+}
+
+#contact p {
+    font-family: "quanticoregular";
+}
+    
     
 
     

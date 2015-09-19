@@ -87,4 +87,15 @@ li {
     box-shadow: 0px 1px 1px gray;
     z-index: 10000;
 }
+
+.gallery {
+    height: 300px;
+    float: left;
+    margin-right: 5px;  
+}
+
+.credits{
+    float:left;
+    font-size: 10px;
+}
       
