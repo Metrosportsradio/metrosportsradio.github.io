@@ -10,6 +10,8 @@
 
 }
 
+
+
 html {
     margin-top: 0;
     padding: 0;
@@ -34,7 +36,18 @@ html {
     box-shadow: 0px 1px 1px gray;
 }
 
-
+#logo {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 40px;
+    height:90px;
+    width: auto;
+    float: left;
+    background: white;
+    box-shadow: 0px 1px 1px gray;
+    z-index: 10000;
+}
+    
 #nav {
     margin: 0;
     padding: 0;
@@ -47,9 +60,8 @@ ul li {
     display: inline;
     width:150px;
 }
-
 li {
-    padding:40px;
+    padding-right:70px;
 }
 
 .navbar {
@@ -83,6 +95,9 @@ li {
     margin-left: 10px;
 }
 
+#wrapper {
+    margin-top: 90px;
+}
 #wrapper p{
     margin-bottom: 0px;
 }
@@ -131,6 +146,8 @@ li {
     animation-name: grad;
     animation-duration: 3s;
 }
+
+
     
 
 

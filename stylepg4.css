@@ -10,6 +10,15 @@
 
 }
 
+/*-- overides selection color --*/
+
+::selection {
+  background: #FB4F14; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FB4F14; /* Gecko Browsers */
+}
+
 html {
     margin-top: 0;
     padding: 0;
@@ -21,10 +30,10 @@ html {
     height: 100%;
     width: 100%;
 }
-
+/*---- Navigation Bar ---*/
 .header {
     position: fixed;
-    margin: 0;
+    margin-top: 0;
     width: 100%;   
     padding: 0;
     background: white;
@@ -33,20 +42,6 @@ html {
     z-index: 2;
     box-shadow: 0px 1px 1px gray;
 }
-
-#logo {
-    position: fixed;
-    margin-top: 0px;
-    margin-left: 40px;
-    height:90px;
-    width: auto;
-    float: left;
-    background: white;
-    box-shadow: 0px 1px 1px gray;
-    z-index: 10000;
-}
-    
-    
 
 
 #nav {
@@ -74,60 +69,22 @@ li {
     text-align: center;
 }
 
-.aboutpara {
-    font-family: 'quanticoregular';
-    margin-left: 5px;
-    z-index: -3;
+#contact {
+    font-family:'quanticoregular';
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 8px;
 }
 
-h1.aboutpara {
-    color:lightgray;
-    margin:6px;
-    padding-top: 10px;
-    padding-right:10px;
-}
-
-p.aboutpara {
-    margin: 6px;
-}
-
- 
-#stepone{
-    font-family: "quanticoregular";
-    display: block;
-    padding: 30px;
-    color: #FB4F14;
-    font-size: 15px;
-}
-
-#steptwo{
-    font-family: "quanticoregular";
-    display: block;
-    padding: 30px;
+#logo {
+    position: fixed;
+    margin-top: 0px;
     margin-left: 40px;
-    color: #FB4F14;
-    font-size: 15px;
-
+    height:90px;
+    width: auto;
+    float: left;
+    background: white;
+    box-shadow: 0px 1px 1px gray;
+    z-index: 10000;
 }
-
-#stepthree{
-    font-family: "quanticoregular";
-    display: block;
-    padding: 30px;
-    margin-left: 80px;
-    color: #FB4F14;
-    font-size: 15px;
-
-}
-
-#wrapper{
-    position: absolute;
-    overflow: scroll;
-    z-index: -3;
-    margin-top: 90px;
-    margin-left: 10px;
-}
-    
-
-    
-
+      

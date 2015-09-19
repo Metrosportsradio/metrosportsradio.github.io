@@ -68,6 +68,19 @@
     box-shadow: 1px 1px 1px gray;
 }
 
+#logo {
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 40px;
+    height:90px;
+    width: auto;
+    float: left;
+    background: white;
+    box-shadow: 0px 1px 1px gray;
+    z-index: 10000;
+}
+    
+
 #nav {
     margin: 0;
     padding: 0;
@@ -93,7 +106,7 @@ ul li {
 }
 
 li {
-    padding:40px;
+    padding-right:70px;
 }
 
 .navbar {
