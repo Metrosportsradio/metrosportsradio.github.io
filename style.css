@@ -125,5 +125,6 @@ z-index: 10;
 #loading {
     font-family:'quanticoregular';
     font-size: 40px;
+    text-align:center;
 }
 
