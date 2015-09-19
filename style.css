@@ -121,4 +121,8 @@ z-index: 10;
 #loader img{
     margin-top: 200px;
 }
+
+#loading {
+    font-family:'quanticoregular';
 }
+
