@@ -124,6 +124,10 @@ li {
     text-align: center;
 }
 
+#pulseload {
+    left: 50%;
+    right 50%;
+}
 
 /*!
  * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
