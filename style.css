@@ -77,7 +77,7 @@
     float: left;
     background: white;
     box-shadow: 0px 1px 1px gray;
-    z-index: 10000;
+    z-index: 9;
 }
     
 
