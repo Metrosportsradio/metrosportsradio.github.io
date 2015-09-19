@@ -111,15 +111,12 @@ li {
     width:100%;
     background-color:white;
     height:100%;
-    text-align:center;
     margin:0;
     padding:0;
+    top:50%;
+    left:50%
     overflow:hidden;
     z-index: 10;
-}
-
-#loader img{
-    margin-top: 200px;
 }
 
 #loading {
@@ -128,7 +125,12 @@ li {
     text-align:center;
 }
 
-/*-------*/
+
+/*!
+ * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Copyright 2015 Daniel Cardoso <@DanielCardoso>
+ * Licensed under MIT
+ */
 .la-ball-scale-pulse,
 .la-ball-scale-pulse > div {
     position: relative;
