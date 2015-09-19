@@ -116,5 +116,9 @@ margin:0;
 padding:0;
 overflow:hidden;
 z-index: 10;
-margin-top: 200px;
+}
+
+#loader img{
+    margin-top: 200px;
+}
 }
