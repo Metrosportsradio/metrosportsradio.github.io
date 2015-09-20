@@ -66,6 +66,7 @@ ul li {
     display: inline;
     width:150px;
 }
+
 li {
     padding-right:70px;
 }
@@ -124,16 +125,71 @@ li {
     width: 500px;
 }
 
-.button {
-    height: 50px;
-    width: 247px;
-    border: solid 1px;
-    font-family: 'quanticoregular';
-    background-color: white;
-    margin-right: 10px;
+
+
+a.button::before {
+    content: "";
+    position: absolute;
+    background: lightgray;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
-/* The animation code */
+
+a.button::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    width: 40px;
+    z-index: -1;
+    -webkit-transform: rotate(45deg) scale(0);
+    -moz-transform: rotate(45deg) scale(0);
+    -ms-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+a.button:hover:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+    width: 40px;
+    z-index: -1;
+    -webkit-transform: rotate(45deg) scale(0);
+    -moz-transform: rotate(45deg) scale(0);
+    -ms-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+
+#buttonwrap{
+    position: fixed;
+    margin-top: 100px;
+    height: 50px;
+    padding: 14px;
+}
+
+/* The animation code 
 @keyframes grad {
     from {background-color: white;}
     to {background-color: #FB4F14;}
@@ -143,7 +199,7 @@ li {
     from {background-color: white;}
     to {background-color: #FB4F14;}
 } /* for webkit browsers */
-/* The element to apply the animation to */
+/* The element to apply the animation to 
 .button:hover {
     height: 50px;
     width: 247px;
@@ -152,7 +208,6 @@ li {
     animation-name: grad;
     animation-duration: 3s;
 }
-
 
     
 
