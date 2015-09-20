@@ -193,18 +193,18 @@ a.button::after {
     margin: -20px 0 0 -20px;
     width: 40px;
     z-index: -1; 
-    -webkit-transform: rotate(90deg) scale(0);
-    -moz-transform: rotate(90deg) scale(0);
-    -ms-transform: rotate(90deg) scale(0);
-    transform: rotate(90deg) scale(0);
+    -webkit-transform: rotate(45deg) scale(0);
+    -moz-transform: rotate(45deg) scale(0);
+    -ms-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
 }
 
 a.button:hover:after{
     z-index: -1;
-    -webkit-transform: rotate(90deg) scale(6);
-    -moz-transform: rotate(90deg) scale(6);
-    -ms-transform: rotate(90deg) scale(6);
-    transform: rotate(90deg) scale(6);
+    -webkit-transform: rotate(45deg) scale(6);
+    -moz-transform: rotate(45deg) scale(6);
+    -ms-transform: rotate(45deg) scale(6);
+    transform: rotate(45deg) scale(6);
     -webkit-transition: all 400ms ease;
     -moz-transition: all 600ms ease;
     -ms-transition: all 600ms ease;
