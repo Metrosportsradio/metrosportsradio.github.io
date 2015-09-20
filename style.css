@@ -153,7 +153,6 @@ li {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1;
-    border: solid;
 }
 
 /*----Read More button */
