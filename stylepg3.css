@@ -125,7 +125,14 @@ li {
     width: 500px;
 }
 
-
+#buttonwrap {
+    position: fixed;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    padding: 14px;
+    overflow: hidden;
+}
 
 a.button::before {
     content: "";
@@ -137,29 +144,7 @@ a.button::before {
     width: 100%;
     z-index: -1;
 }
-
-
-a.button::after {
-    content: "";
-    position: absolute;
-    background: #fff;
-    height: 40px;
-    left: 50%;
-    top: 50%;
-    margin: -20px 0 0 -20px;
-    width: 40px;
-    z-index: -1;
-    -webkit-transform: rotate(45deg) scale(0);
-    -moz-transform: rotate(45deg) scale(0);
-    -ms-transform: rotate(45deg) scale(0);
-    transform: rotate(45deg) scale(0);
-    -webkit-transition: all 400ms ease;
-    -moz-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    -o-transition: all 400ms ease;
-    transition: all 400ms ease;
-}
-
+    
 a.button:hover:after {
     content: "";
     position: absolute;
@@ -170,23 +155,15 @@ a.button:hover:after {
     margin: -20px 0 0 -20px;
     width: 40px;
     z-index: -1;
-    -webkit-transform: rotate(45deg) scale(0);
-    -moz-transform: rotate(45deg) scale(0);
-    -ms-transform: rotate(45deg) scale(0);
-    transform: rotate(45deg) scale(0);
+    -webkit-transform: rotate(45deg) scale(10);
+    -moz-transform: rotate(45deg) scale(10);
+    -ms-transform: rotate(45deg) scale(10);
+    transform: rotate(45deg) scale(10);
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
     -o-transition: all 400ms ease;
     transition: all 400ms ease;
-}
-
-
-#buttonwrap{
-    position: fixed;
-    margin-top: 100px;
-    height: 50px;
-    padding: 14px;
 }
 
 /* The animation code 
