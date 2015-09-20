@@ -200,6 +200,7 @@ a.button::after {
 
 a.button:hover:after{
     position: fixed;
+    overflow: hidden;
     z-index: -1;
     -webkit-transform: rotate(45deg) scale(6);
     -moz-transform: rotate(45deg) scale(6);
