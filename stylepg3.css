@@ -125,23 +125,15 @@ li {
     width: 500px;
 }
 
-.button {
-    height: 50px;
-    width: 247px;
-    border: solid 1px;
-    background-color: white;
-    font-family: "quanticoregular";
+#buttonwrap {
+    position: fixed;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    padding: 14px;
+    overflow: hidden;
 }
-    
 
-.button:hover {
-    height: 50px;
-    width: 247px;
-    border: solid 1px;
-    font-family: 'quanticoregular';
-    animation-name: grad;
-    animation-duration: 3s;
-}    
 
 /* The animation code */ 
 @keyframes grad {
@@ -153,9 +145,27 @@ li {
     from {background-color: white;}
     to {background-color: #FB4F14;}
 } /* for webkit browsers */
-/* The element to apply the animation to */ 
+/* The element to apply the animation to */
 
 
+.button{
+    height: 50px;
+    width: 247px;
+    border: solid 1px;
+    background-color: white;
+    font-family: 'quanticoregular';
+    animation-name: grad;
+    animation-duration: 3s;
+}
+
+.button:hover {
+    height: 50px;
+    width: 247px;
+    border: solid 1px;
+    font-family: 'quanticoregular';
+    animation-name: grad;
+    animation-duration: 3s;
+}
 
     
 
