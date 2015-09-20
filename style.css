@@ -178,7 +178,7 @@ a.button {
 a.button::before {
     content: "";
     position: absolute;
-    background: #ffffff;
+    background: #FB4F14;
     height: 100%;
     left: 0;
     top: 0;
@@ -189,7 +189,7 @@ a.button::before {
 a.button::after {
     content: "";
     position: absolute;
-    background: #FB4F14;
+    background: #FFFFFF;
     height: 40px;
     left: 50%;
     top: 50%;
