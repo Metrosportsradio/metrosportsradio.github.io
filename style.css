@@ -161,7 +161,6 @@ li {
     left:50%;
     overflow: hidden;
     text-align:center;
-    border: solid 1px white;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
