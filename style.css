@@ -19,7 +19,7 @@
 
 .mybg{
     z-index: -5;
-    height: 700px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 }
@@ -27,12 +27,12 @@
 .mybg img {
     background-repeat: no-repeat;
     background-size: contain;    
-    height: auto;
+    height: 100%;
     width: 100%;
 }  
 
 .title {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
