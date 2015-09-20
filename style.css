@@ -178,7 +178,7 @@ a.button {
 a.button::before {
     content: "";
     position: absolute;
-    background: #FB4F14;
+    background: #FFFFFF;
     height: 100%;
     left: 0;
     top: 0;
@@ -189,17 +189,17 @@ a.button::before {
 a.button::after {
     content: "";
     position: absolute;
-    background: #FFFFFF;
+    background: #FB4F14;
     height: 40px;
     left: 50%;
     top: 50%;
     margin: -20px 0 0 -20px;
     width: 40px;
     z-index: -1; 
-    -webkit-transform: rotate(45deg) scale(0);
-    -moz-transform: rotate(45deg) scale(0);
-    -ms-transform: rotate(45deg) scale(0);
-    transform: rotate(45deg) scale(0);
+    -webkit-transform: rotate(90deg) scale(0);
+    -moz-transform: rotate(90deg) scale(0);
+    -ms-transform: rotate(90deg) scale(0);
+    transform: rotate(90deg) scale(0);
 }
 
 a.button:hover:after{
@@ -208,10 +208,10 @@ a.button:hover:after{
     height: 40px;
     width: 40px;
     z-index: -1;
-    -webkit-transform: rotate(45deg) scale(6);
-    -moz-transform: rotate(45deg) scale(6);
-    -ms-transform: rotate(45deg) scale(6);
-    transform: rotate(45deg) scale(6);
+    -webkit-transform: rotate(90deg) scale(6);
+    -moz-transform: rotate(90deg) scale(6);
+    -ms-transform: rotate(90deg) scale(6);
+    transform: rotate(90deg) scale(6);
     -webkit-transition: all 400ms ease;
     -moz-transition: all 600ms ease;
     -ms-transition: all 600ms ease;
