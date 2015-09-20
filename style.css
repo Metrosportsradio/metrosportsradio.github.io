@@ -140,7 +140,7 @@ li {
 }
 
 #pulseload div{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -199,6 +199,7 @@ a.button::after {
 }
 
 a.button:hover:after{
+    position: fixed;
     z-index: -1;
     -webkit-transform: rotate(45deg) scale(6);
     -moz-transform: rotate(45deg) scale(6);
