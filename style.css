@@ -131,6 +131,11 @@ li {
     padding:0;
     overflow:hidden;
     z-index: 10;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 #loading {
@@ -199,7 +204,7 @@ a.button::after {
 }
 
 a.button:hover:after{
-    position: fixed;
+    position:absolute;
     overflow: hidden;
     height: 40px;
     width: 40px;
