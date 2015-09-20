@@ -154,8 +154,7 @@ li {
     border: solid 1px;
     background-color: white;
     font-family: 'quanticoregular';
-    animation-name: grad;
-    animation-duration: 3s;
+ 
 }
 
 .button:hover {
