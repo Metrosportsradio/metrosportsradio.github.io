@@ -131,6 +131,10 @@ li {
     padding:0;
     overflow:hidden;
     z-index: 10;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #loading {
@@ -139,10 +143,13 @@ li {
     text-align: center;
 }
 
-#pulseload div{
-    position: absolute;
+#pulseload{
+    position: fixed;
+    width: 100px;
+    height: 100px;
     top: 50%;
     left: 50%;
+    right: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -152,16 +159,14 @@ li {
 
 
 #wrapper {
-    margin-top: 30px;
+    margin-top: 40px;
     position: fixed;
-    height: 80x;
     width: 200px;
     padding: 14px;
     right:50%;
     left:50%;
     overflow: hidden;
     text-align:center;
-    border: solid 1px white;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -175,7 +180,7 @@ a.button {
 a.button::before {
     content: "";
     position: absolute;
-    background: #ffffff;
+    background: #FFFFFF;
     height: 100%;
     left: 0;
     top: 0;
@@ -200,6 +205,10 @@ a.button::after {
 }
 
 a.button:hover:after{
+    position:absolute;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
     z-index: -1;
     -webkit-transform: rotate(90deg) scale(6);
     -moz-transform: rotate(90deg) scale(6);

@@ -74,8 +74,13 @@ li {
     position: fixed;
     margin-top: 80px;
     margin-left: 8px;
+<<<<<<< HEAD
     height: 100%;
     width: 100%;
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> origin/master
     overflow: scroll;
 }
 
@@ -91,6 +96,7 @@ li {
     z-index: 10000;
 }
 
+
 .gallery {
     height: 300px;
     float: left;
@@ -104,4 +110,6 @@ li {
     float:left;
     font-size: 10px;
 }
+      
+
       
