@@ -81,17 +81,18 @@ body {
     font-family: 'quanticoregular';
 }
 
-#photo{
-     color:white;
+#credits{
+    font-family: 'quanticoregular';
+    color:white;
 }
 
-#photo:visted{
+#credits:visted{
      color:white;
 }
 
 #enter {
     position: absolute;
-    top: 10;
+    top: 0;
     right: 0;
     z-index: -3;
     font-family: 'quanticoregular';
